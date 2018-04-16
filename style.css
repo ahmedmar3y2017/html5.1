@@ -122,32 +122,37 @@ aside {
     float: right;
 
 }
-aside section{
+
+aside section {
 
     background-color: #EEEEEE;
-    margin:20px;
-    padding:10px;
+    margin: 20px;
+    padding: 10px;
     border: 1px solid #CCCCCC;
     margin-bottom: 20px;
 
 }
-aside section h3{
+
+aside section h3 {
 
     background-color: #D1D1D1D1;
     padding: 10px;
     text-align: center;
 
 }
-aside section ul{
+
+aside section ul {
 
     margin-top: 10px;
 
 }
-aside section ul li{
+
+aside section ul li {
 
     line-height: 1.8;
 
 }
+
 ul {
     list-style: none;
 
