@@ -2,8 +2,38 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 
 }
+
+/*start span */
+
+span {
+    color: blue;
+
+}
+
+main {
+    background-color: #EEEEEE;
+    padding: 20px;
+
+}
+
+main p {
+    text-align: center;
+
+}
+
+main p span {
+
+    font-weight: bold;
+    color: #666666;
+
+}
+
+/*end span */
 
 /*start main header */
 .main {
@@ -13,6 +43,7 @@
     text-align: center;
 
 }
+
 /*end main header */
 
 /*start nave bar */
@@ -51,8 +82,18 @@ body {
     font-family: Arial, Tahoma;
 
 }
+
+/*start poast */
+.post {
+    width: 70%;
+    float: left;
+
+}
+
+/*end post */
+
 /*start article */
-article {
+.post article {
     /*padding: 20  x;*/
     margin: 20px;
     border: 1px solid #CCCCCC;
@@ -60,19 +101,64 @@ article {
 
 }
 
-article header {
+.post article header {
     background-color: #E2E2E2;
     padding: 10px;
 
 }
 
-article section {
+.post article section {
 
     padding: 10px;
 
 }
+
 /*end article */
 
+/*start aside */
+
+aside {
+    width: 30%;
+    float: right;
+
+}
+aside section{
+
+    background-color: #EEEEEE;
+    margin:20px;
+    padding:10px;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 20px;
+
+}
+aside section h3{
+
+    background-color: #D1D1D1D1;
+    padding: 10px;
+    text-align: center;
+
+}
+aside section ul{
+
+    margin-top: 10px;
+
+}
+aside section ul li{
+
+    line-height: 1.8;
+
+}
+ul {
+    list-style: none;
+
+}
+
+.clearFix {
+    clear: both;
+
+}
+
+/*end aside */
 /*start footer */
 footer {
 
@@ -82,6 +168,7 @@ footer {
     text-align: center;
 
 }
+
 /*end footer */
 
 
