@@ -158,6 +158,29 @@
         </section>
     </article>
 
+    <article>
+        <header>
+            <h3>Video</h3>
+            <p>This is Video </p>
+        </header>
+        <section>
+            <video controls width="300" height="300" loop muted autoplay>
+
+                <source src="oo.mp4" type="video/mp4">
+                <source src="oo.ogg" type="video/ogg">
+                <source src="oo.webm" type="video/webm">
+
+                this browser not support vie=deo
+
+
+            </video>
+
+
+        </section>
+
+
+    </article>
+
 
 </div>
 
@@ -197,10 +220,65 @@
         <ul>
             <li>ahmed : 20 point</li>
             <li>mohamed : 15 point</li>
-            <li><bdi>على</bdi> : 10 point</li>
+            <li>
+                <bdi>على</bdi>
+                : 10 point
+            </li>
 
 
         </ul>
+
+
+    </section>
+    <section class="meters">
+        <h3>whats is Your favourote Browser ? </h3>
+        <form>
+
+
+            <input list="browsers">
+            <datalist id="browsers">
+                <option>opera</option>
+                <option>safari</option>
+                <option>internet Explorer</option>
+                <option>firefox</option>
+                <option>chrome</option>
+                <option>opacity</option>
+                <option>same</option>
+
+
+            </datalist>
+            <input type="submit" value="Choose">
+
+
+        </form>
+
+    </section>
+    <section>
+        <h3>CCLCULATE Age By Dayes ? </h3>
+        <form oninput="result.value = parseInt(age.value)*parseInt(dayes.value) + ' Dayes'">
+            <input name="age" type="text">
+            <input name="dayes" type="hidden" value="365">
+
+            <output name="result"></output>
+
+
+        </form>
+
+
+    </section>
+
+    <section>
+
+        <h3>Audio is : </h3>
+        <!--autoplay loop-->
+        <audio controls muted preload="auto">
+            <source src="aa.mp3" type="audio/mpeg">
+            <source src="aa.mp3" type="audio/ogg">
+
+            This Audio is not supportedin this browser
+
+
+        </audio>
 
 
     </section>
