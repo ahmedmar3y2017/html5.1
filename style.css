@@ -8,6 +8,29 @@
 
 }
 
+
+/*start mark */
+main p mark{
+    background-color: blue;
+    color: #F6F6F6;
+
+
+}
+
+
+/*end mark*/
+
+
+/*********** start Details ******************/
+
+post article section details {
+
+    margin-top: 10px;
+
+}
+
+/*end details **********************/
+
 /*start span */
 
 span {
