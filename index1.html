@@ -183,15 +183,87 @@
             <p>Html5 New Input </p>
         </header>
         <section>
-            <form>
+            <form class="html5">
+                <labe>Color :</labe>
                 <input type="color" name="color" value="#0000ff">
+                <labe>Range :</labe>
+
                 <input type="range" name="choose" min="1" , max="50" step="10" value="25">
+                <labe>Number :</labe>
+
                 <input type="number" min="5" max="50" step="10" value="40">
+                <labe>Email :</labe>
+
+                <input type="email" name="email">
+                <labe>Search :</labe>
+
+                <input type="search" name="search">
+                <labe>Link :</labe>
+
+                <input type="url" name="link">
+                <labe>Phone :</labe>
+
+                <input type="tel" name="telephone">
+                <labe>Time :</labe>
+
+                <input type="time" name="timing">
+                <labe>Date Time :</labe>
+
+                <input type="datetime-local" name="datetime">
+                <label>Date</label>
+                <input type="date" name="date">
+                <label>Month</label>
+                <input type="month" name="month">
+                <label>week</label>
+                <input type="week" name="week">
+
                 <input type="submit" value="send">
             </form>
 
 
         </section>
+    </article>
+
+    <article>
+
+        <header>
+            <h3>New Attributes Form</h3>
+            <p>Html5 New Attributes </p>
+        </header>
+
+        <section>
+            <form id="main-form" class="html5" action="" method="get">
+
+                <label>username</label>
+                <input type="text" name="username" required autofocus="on" placeholder="type your userName">
+
+                <label>email</label>
+                <input type="email" name="email" required autocomplete="off" multiple>
+                <label>Number</label>
+                <input type="number" name="number" min="0" max="30" step="10">
+
+                <label>Read Only</label>
+                <input type="text" name="read" value="ahmed mar3y" readonly >
+                <label>Disabled</label>
+                <input type="text" name="dis" value="ahmed mar3y" disabled>
+
+
+                <input type="file" value="ChooseFile" multiple>
+
+                <input type="Submit" value="Default Action">
+                <input type="Submit" value="Default Action no validation" formnovalidate>
+                <input type="Submit" value="Submit in new Window" formnovalidate formtarget="_blank">
+
+                <input type="Submit" formaction="" formmethod="post" value="Other action">
+
+
+            </form>
+            <label>NickName</label>
+            <input type="text" name="NickName" form="main-form" required>
+
+        </section>
+
+
     </article>
 
 
@@ -271,7 +343,6 @@
         <form oninput="result.value = parseInt(age.value)*parseInt(dayes.value) + ' Dayes'">
             <input name="age" type="text">
             <input name="dayes" type="hidden" value="365">
-
             <output name="result"></output>
 
 

@@ -60,6 +60,12 @@ post article section details {
     margin-top: 10px;
 
 }
+.post article section .html5 input{
+    display: block;
+    margin-bottom: 10px;
+    
+    
+}
 
 /*end details **********************/
 
